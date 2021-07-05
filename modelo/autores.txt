@@ -1,0 +1,3 @@
+0;1;Milton Santos;888.888.888-88;milton.santos@ifms.edu.br;(67) 97777-7777;Jardim;1001;Geografia;2;Geografia;3
+1;2;Kabengele Munanga;666.666.666-66;munanga@ifms.edu.br;(67) 86666-6666;Campo Grande;666;Informatica;1
+2;1;Eliza Lucinda;999.999.999-99;lucinda@gmail.com;(67) 55555-5555;Aquidauana;5252;Lingua Portuguesa;1;Letras e producao de texto;2

@@ -1,0 +1,3 @@
+Geografia e pedagogia;123456;Editora IFMS;5;0;100.00;3
+Linguagem de Programacao e Pedagogia;101010;Editora IFMS;1;1;200.00;5
+O Conceito de pretugues;202020;Editora IFMS;4;2;300.00;7

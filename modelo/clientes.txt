@@ -1,0 +1,6 @@
+0;1;Carolina Maria de Jesus;111.111.111-11;carolina@gmail.com;67 55555-5555;R. Carol Jesus, 123
+1;1;Eliza Lucinda;222.222.222-22;eliza@gmail.com;67 66666-6666;R. Lucinda, 222
+2;2;Kabengele Munanga;333.333.333-33;munanga@gmail.com;67 77777-7777;R. Kabengele, 333;E.E. Amanda do Oliveira;Ensino Medio
+3;2;Emicida;444.444.444-44;emicida@gmail.com;67 12121-1212;R. do Emicida, 444;E.M. Adair de Oliveira;Ensino Fundamental
+4;3;Mano Brown;555.555.555-55;brown@gmail.com;67 32323-3232;R. do Brown, 512;UFMS;Letras
+5;3;Carla Akotirene;141.141.141.14;akotirene@gmail.com;67 41414-4141;R. da Akotirene, 475;UEMS;Matematica
