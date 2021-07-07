@@ -3,9 +3,6 @@ package biblioteca.modelo;
 public class ClienteAluno extends Cliente{
 	private String instituicao, curso;
 	
-	public ClienteAluno() {
-		this.setTipoCliente("aluno");
-	}
 
 	public String getInstituicao() {
 		return instituicao;

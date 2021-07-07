@@ -3,8 +3,26 @@ package biblioteca.modelo;
 import java.time.LocalDateTime;
 
 public class Emprestimo {
+	private Livro livro;
+	private Cliente cliente;
 	private LocalDateTime dataEmprestimo, dataDevolucao;
 	
+	
+	public Livro getLivro() {
+		return livro;
+	}
+
+	public void setLivro(Livro livro) {
+		this.livro = livro;
+	}
+
+	public Cliente getCliente() {
+		return cliente;
+	}
+
+	public void setCliente(Cliente cliente) {
+		this.cliente = cliente;
+	}
 	
 	public LocalDateTime getDataEmprestimo() {
 		return dataEmprestimo;
@@ -22,17 +40,20 @@ public class Emprestimo {
 		this.dataDevolucao = dataDevolucao;
 	}
 	
-	public void definirPrazoDevolucao(String tipoCliente) {
-		switch(tipoCliente) {
-			case "qualquer": this.setDataDevolucao( this.dataEmprestimo.plusDays(10) );
-					break;
-					
-			case "aluno": this.setDataDevolucao( this.dataEmprestimo.plusDays(30) );
-					break;
-					
-			case "professor": this.setDataDevolucao( this.dataEmprestimo.plusDays(45) );
-					break;
+	public void definirPrazoDevolucao(Cliente tipoCliente) {
+		
+		if (tipoCliente instanceof ClienteProfessor) {
+			this.setDataDevolucao( this.dataEmprestimo.plusDays(45) );
+		} else
+		
+		if (tipoCliente instanceof ClienteAluno) {
+			this.setDataDevolucao( this.dataEmprestimo.plusDays(30) );
+		} else
+			
+		if (tipoCliente instanceof Cliente) {
+			this.setDataDevolucao( this.dataEmprestimo.plusDays(10) );
 		}
-	}
 	
+	}
+
 }

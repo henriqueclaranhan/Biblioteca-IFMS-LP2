@@ -81,6 +81,7 @@ public class Biblioteca {
 			
 			while (linha != null){
 				String[] dados = linha.split(";");
+				
 				Livro livro = new Livro();
 				livro.setTitulo(dados[0]);
 				livro.setIsbn(Integer.parseInt(dados[1]));
@@ -170,7 +171,10 @@ public class Biblioteca {
 
 	public void adicionarLivro(Livro livro, int quantidadeDeCopias) {
 		while (quantidadeDeCopias > 0) {
-			this.acervo.add(livro);
+			Livro livroAdicionado = new Livro();
+			livroAdicionado = livro;
+			
+			this.acervo.add(livroAdicionado);
 			quantidadeDeCopias--;
 		}
 	}
